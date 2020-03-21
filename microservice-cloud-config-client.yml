@@ -17,7 +17,7 @@ eureka:
 server:
   port: 7001
 spring:
-  profiles: eureka-server-7001
+  profiles: 7001
   application:
     name: eureka-server-7001
 eureka:

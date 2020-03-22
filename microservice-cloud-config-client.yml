@@ -213,7 +213,6 @@ spring:
           statement-executable-sql-log-enable: true
           #所有Statement相关的日志
           statement-log-enabled: true
-  profiles:
     active: dev
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss

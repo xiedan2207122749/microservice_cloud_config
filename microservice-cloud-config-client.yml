@@ -144,6 +144,7 @@ info:
   
 spring:
   profiles: 8001
+    active: dev
   application:
     name: microservice-provider  # 指明微服务应用名，这个很重要，这在以后的服务与服务之间相互调用一般都是根据这个name。
   thymeleaf:
@@ -213,7 +214,6 @@ spring:
           statement-executable-sql-log-enable: true
           #所有Statement相关的日志
           statement-log-enabled: true
-    active: dev
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss
     time-zone: GMT+8
@@ -245,6 +245,7 @@ info:
 
 spring:
   profiles: 8002
+    active: dev
   application:
     name: microservice-provider  # 指明微服务应用名，这个很重要，这在以后的服务与服务之间相互调用一般都是根据这个name。
   thymeleaf:
@@ -315,8 +316,6 @@ spring:
           statement-executable-sql-log-enable: true
           #所有Statement相关的日志
           statement-log-enabled: true
-  profiles:
-    active: dev
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss
     time-zone: GMT+8

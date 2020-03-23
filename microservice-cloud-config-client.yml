@@ -144,7 +144,7 @@ info:
   
 spring:
   profiles: 8001
-    active: dev
+    #active: dev
   application:
     name: microservice-provider  # 指明微服务应用名，这个很重要，这在以后的服务与服务之间相互调用一般都是根据这个name。
   thymeleaf:
@@ -245,7 +245,7 @@ info:
 
 spring:
   profiles: 8002
-    active: dev
+    #active: dev
   application:
     name: microservice-provider  # 指明微服务应用名，这个很重要，这在以后的服务与服务之间相互调用一般都是根据这个name。
   thymeleaf:

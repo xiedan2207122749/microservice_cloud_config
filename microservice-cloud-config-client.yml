@@ -240,8 +240,8 @@ eureka:
 info:
   app.name: microservice-provider-8002
   company.name: www.thinkifu.com
-  build.artifactId: $project.artifactId$
-  build.version: $project.version$
+  build.artifactId: ${project.artifactId}
+  build.version: ${project.version}
 
 spring:
   profiles: 8002
